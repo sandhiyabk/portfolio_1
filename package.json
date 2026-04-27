@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "cp index.html dist/index.html && cp style.css dist/style.css && cp script.js dist/script.js && cp -r assets dist/assets"
+    "build": "mkdir -p dist && cp index.html dist/index.html && cp style.css dist/style.css && cp script.js dist/script.js && cp -r assets dist/assets"
   }
 }
