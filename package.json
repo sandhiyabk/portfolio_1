@@ -3,12 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "npx @tailwindcss/cli@next -i style.css -o dist/style.css && cp index.html dist/index.html && cp script.js dist/script.js && cp -r assets dist/assets",
-    "dev": "npx @tailwindcss/cli@next -i style.css -o style.dist.css --watch"
-  },
-  "devDependencies": {
-    "@tailwindcss/cli": "next",
-    "tailwindcss": "next",
-    "tw-animate-css": "latest"
+    "build": "cp index.html dist/index.html && cp style.css dist/style.css && cp script.js dist/script.js && cp -r assets dist/assets"
   }
 }
