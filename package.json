@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@tailwindcss/cli": "next",
-    "tailwindcss": "next"
+    "tailwindcss": "next",
+    "tw-animate-css": "latest"
   }
 }
